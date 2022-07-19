@@ -34,6 +34,7 @@ export function AskQuestion() {
             return tagsList
         }) 
         var userDetails = localStorage.getItem("user");
+        userDetails = JSON.parse(userDetails);
         var data = [{
             posted_by: userDetails && userDetails.userName || "",
             question_title: title,
