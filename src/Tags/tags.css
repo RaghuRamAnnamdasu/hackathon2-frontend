@@ -1,0 +1,31 @@
+.tagsContainer {    
+    display: GRID;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+    padding: 24px 32px;
+    height: max-content;
+}
+
+.tagName {
+    background: lightblue;
+    width: max-content;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.tagDescription {
+    font-size: 14px;
+    color: darkslategray;
+    text-overflow: ELLIPSIS;
+    overflow: hidden;
+}
+
+.tagPageWrapper {
+    height: 200px;
+    padding: 8px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    display: grid;
+    gap: 8px;
+    grid-template-rows: max-content 1fr max-content;
+}

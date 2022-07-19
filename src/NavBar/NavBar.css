@@ -1,0 +1,32 @@
+.navBar {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-right: 1px solid lightgray;
+    padding: 24px 40px;
+    font-size: 14px;
+}
+
+.questionsWrapper {
+    display: flex;
+    cursor: pointer;
+}
+
+.tagsWrapper,
+.usersWrapper,
+.companiesWrapper {
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+.tagsWrapper:hover,
+.usersWrapper:hover,
+.companiesWrapper:hover,
+.questionsWrapper:hover {
+    color: blue;
+}
+
+.navBarQuestions {
+    cursor: pointer;
+}

@@ -1,0 +1,161 @@
+.bodyContent {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
+.questionsHeader {
+    display: flex;
+    justify-content: SPACE-BETWEEN;
+    padding: 16px 32px;
+    align-items: center;
+}
+
+.questionsHeader h1 {
+    margin: 0 !important;
+    font-weight: 400;
+}
+
+.questionsCount {
+    padding: 8px 32px;
+    border-bottom: 1px solid lightgray;
+}
+
+.questionsContent {
+    padding: 16px 32px;
+    display: flex;
+    gap: 16px;
+    border: 1px solid lightgray;
+}
+
+.singleQuestionWrapper.questionsContent {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
+.questionVotes {
+    text-align: center;
+}
+
+.singleQuestionAnswercontainer h2 {
+    padding: 0 32px;
+}
+.answerWrapper {
+    padding: 16px 32px;
+}
+
+.answercontainer {
+    display: flex;
+    padding: 12px 32px;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+}
+
+.questionTitle {
+    color: royalblue;
+    cursor: pointer;
+}
+
+.questionBody {
+    font-size: 14px;
+}
+
+.questions-main-part {
+    display: grid;
+    gap: 8px;
+}
+
+.questionsContentFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.questionTagsWrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.questionTag {
+    background: lightblue;
+    padding: 4px 8px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.askedBy {
+    color: dodgerblue;
+    font-size: 14px;
+}
+
+.askedBy span {
+    color: gray;
+}
+
+.singleQuestionTitle {
+    margin-top: 0;
+}
+
+.postAnswer {
+    margin-top: 16px !important;
+}
+
+.questionTitleWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.questionTitleWrapper button {
+    height: max-content;
+}
+
+.postNameWrapper,
+.postEmailWrapper {
+    display: grid;
+    gap: 8px;
+    width: 200px;
+}
+
+.postNameWrapper input,
+.postEmailWrapper input {
+    width: 300px;
+    height: 32px;
+}
+
+.postAsAGuestWrapper {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    gap: 8px;
+}
+
+.guestError {
+    color: darkred;
+}
+
+.errorBorder {
+    border: 1px solid darkred;
+}
+
+.allQuestions .votes,
+.allQuestions .answers,
+.allQuestions .views {
+    font-size: 13px;
+}
+
+.allQuestions {
+    display: GRID;
+    grid-auto-rows: max-content max-content max-content;
+    grid-gap: 8px;
+}
+
+.arrowIcons svg,
+.questions-left-part svg {
+    /* font-size: 60px; */
+    fill: darkgray;
+}
+
+.arrowIcons,
+.questionsArrowIcons {
+    display: grid;
+}

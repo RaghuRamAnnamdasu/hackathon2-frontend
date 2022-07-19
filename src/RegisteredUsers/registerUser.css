@@ -1,0 +1,36 @@
+.profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #512DA8;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px 0;
+    text-transform: capitalize;;
+  }
+
+  .membersContainer {
+    padding: 16px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: max-content;
+  }
+
+  .userWrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .memberName {
+    color: dodgerblue;
+  }
+
+  .memberEmail {
+    font-size: 13px;
+    color: gray;
+  }

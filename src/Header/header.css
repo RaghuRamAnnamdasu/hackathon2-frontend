@@ -1,0 +1,52 @@
+.header {
+    background: #fff;
+    width: -webkit-fill-available;
+    padding: 8px 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0px 0.5px 8px rgba(0, 0, 0, 0.178);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.iconWrapper {
+    display: flex;
+    color: #000;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconWrapper img {
+    height: 50px;
+    width: 50px;
+}
+
+.iconWrapper span {
+    font-weight: bold;
+}
+
+.searchWrapper {
+    flex-grow: 1;
+}
+
+.searchWrapper input {
+    width: -webkit-fill-available;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.loginWrapper {
+    display: flex;
+    gap: 16px;
+}
+
+.loginWrapper button {
+    /* width: 60px; */
+}
+
+.stackOverflowText {
+    font-size: 20px;
+}

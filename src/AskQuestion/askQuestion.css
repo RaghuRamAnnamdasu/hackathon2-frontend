@@ -1,0 +1,36 @@
+.askQUestionPageWrapper {
+    padding: 10px 40px;
+}
+.askQuestionCardWrapper {
+    box-shadow: 0 0 10px 0 #ccc;
+    width: max-content;
+    padding: 24px;
+    display: grid;
+    gap: 12px;
+}
+
+.askQuestionCardWrapper p {
+    margin: 0;
+    font-size: 13px;
+    color: gray;
+}
+
+.askQuestionCardWrapper input {
+    width: 100%;
+    height: 32px;
+}
+
+.askQUestionPageWrapper .postQuestionButton {
+    margin-top: 16px;
+}
+
+.titleText,
+.bodyText,
+.tagsText {
+    font-weight: 500;
+}
+
+/* .askQuestionCardWrapper :global(.MuiAutocomplete-root .MuiAutocomplete-endAdornment) {
+    top:0 !important;
+    height: unset;
+} */

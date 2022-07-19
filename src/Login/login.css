@@ -1,0 +1,68 @@
+.login {
+    margin-top: 30px;
+ }
+ 
+ .loginContent {
+     width: 300px;
+     box-shadow: 0 0 10px 0 #ccc;
+     display: grid;
+     align-items: center;
+     gap: 16px;
+     margin: auto;
+     padding: 32px 24px;
+     margin-top: 20px;
+ }
+ 
+ .login .iconWrapper {
+     display: flex;
+     color: #000;
+     justify-content: center;
+ }
+ 
+ .iconWrapper img{
+     height: 50px;
+     width: 50px;
+ }
+ 
+ .userNameWrapper,
+ .passwordWrapper,
+ .displayNameWrapper {
+     display: grid;
+ }
+ 
+ .userNameWrapper input,
+ .passwordWrapper input,
+ .displayNameWrapper input {
+     height: 32px;
+     margin-top: 8px;
+ }
+ 
+ .noAccount,
+ .accountExists {
+     font-size: 14px;
+     justify-content: center;
+     display: flex;
+ }
+ 
+ .noAccount span,
+ .accountExists span {
+     color: dodgerblue;
+     cursor: pointer;
+ }
+ 
+ .login button {
+     text-transform: capitalize;
+ }
+ 
+ .emailError {
+     color: firebrick;
+     font-size: 13px;
+ }
+ 
+ .redBorderInput {
+     border: 1px solid firebrick;
+ }
+
+ .invalidErrorMessage {
+    color: firebrick;
+ }

@@ -1,0 +1,56 @@
+.defaultPageWrapper {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 16px 30px;
+    text-align: center;
+}
+
+.defaultPageWrapper h1 {
+    font-size: 36px;
+}
+
+.defaultPageWrapper {
+    color: white;
+}
+
+.defaultPageWrapper span {
+    color:orange;
+}
+
+.rating {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.ratingContainer {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ratingtext {
+    color: darkgray;
+}
+
+.companies {
+    display: FLEX;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.microsoft {
+    color: dodgerblue;
+}
+
+.intercom {
+    color: bisque;
+}
+
+.instacart {
+    color: yellowgreen;
+}
