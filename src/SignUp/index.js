@@ -53,7 +53,7 @@ export function SignUp() {
             if(jsonResponse.message) {
                 setEmailError(jsonResponse.message);
             } else {
-                
+
              navigate("/questions");
              localStorage.setItem("user", JSON.stringify({token: "", userName: displayName}));
             }
@@ -99,7 +99,7 @@ export function SignUp() {
                     <input id="password" type="password" onChange={(e) => onPasswordChange(e)} value={password} required/>
                 </div>
                 <Button type="submit" variant="contained">Sign up</Button>
-                <div className="accountExists">Already have an account? <span onClick={() => navigate("/users/login")}>&nbsp;Login</span></div>
+                {/* <div className="accountExists">Already have an account? <span onClick={() => navigate("/users/login")}>&nbsp;Login</span></div> */}
             </form>
       </div>
     );
