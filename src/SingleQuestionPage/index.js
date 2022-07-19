@@ -42,7 +42,7 @@ export function SingleQuestionPage() {
         if(userDetails && userDetails.userName) {
             navigate("/questions/askquestion");
         } else {
-            navigate("/users/login");
+            navigate("/users/signup");
         }
     }
 

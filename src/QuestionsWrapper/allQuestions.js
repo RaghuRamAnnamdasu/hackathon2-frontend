@@ -24,7 +24,7 @@ export function AllQuestionsWrapper() {
         if(userDetails && userDetails.userName) {
             navigate("/questions/askquestion");
         } else {
-            navigate("/users/login");
+            navigate("/users/signup");
         }
     }
 

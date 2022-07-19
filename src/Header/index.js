@@ -29,7 +29,7 @@ export function Header() {
                 </Button>
             </div> :
             <div className="loginWrapper">
-                <Button type="button" variant="outlined" onClick={() => navigate("/users/login")}>Login</Button>
+                {/* <Button type="button" variant="outlined" onClick={() => navigate("/users/login")}>Login</Button> */}
                 <Button type="button" variant="contained" onClick={() => navigate("/users/signup")}>Sign Up</Button>
             </div>
         }
