@@ -19,7 +19,7 @@ export function Header() {
             <input type="text" placeholder='search'/>
             {/* <SearchIcon /> */}
         </div>
-        {userDetails && userDetails.token ?
+        {userDetails && userDetails.userName ?
             <div className='signOutWrapper'>
                 <Button variant="outlined" startIcon={<PowerSettingsNewIcon />} onClick={() => {
                     localStorage.clear();

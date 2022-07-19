@@ -39,7 +39,7 @@ export function SingleQuestionPage() {
     }
 
     const askQuestion = () => {
-        if(userDetails && userDetails.token) {
+        if(userDetails && userDetails.userName) {
             navigate("/questions/askquestion");
         } else {
             navigate("/users/login");
@@ -52,7 +52,7 @@ export function SingleQuestionPage() {
 
     const postAnswer = () => {
         var data = [];
-        if(userDetails && userDetails.token) {
+        if(userDetails && userDetails.userName) {
             data = [{
                 "user": userDetails && userDetails.userName || "",
                 "answer": answer
@@ -137,8 +137,8 @@ export function SingleQuestionPage() {
                                 </div>
                             </div>
                             <div className='singleQuestionAnswercontainer'>
-                                <h2>{questionData["Answers"].length} Answers</h2>
-                                {questionData["Answers"].map((data, index) => {
+                                <h2>{questionData["Answers"] && questionData["Answers"].length} Answers</h2>
+                                {questionData["Answers"] && questionData["Answers"].map((data, index) => {
                                     return (
                                         <div className='answercontainer'>
                                             <div className='arrowIcons'>

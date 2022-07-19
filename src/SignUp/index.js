@@ -53,7 +53,9 @@ export function SignUp() {
             if(jsonResponse.message) {
                 setEmailError(jsonResponse.message);
             } else {
-             navigate("/users/login");
+                
+             navigate("/questions");
+             localStorage.setItem("user", JSON.stringify({token: "", userName: displayName}));
             }
           }).catch (error => {
             console.log(error)

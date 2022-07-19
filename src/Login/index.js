@@ -39,8 +39,8 @@ export function Login() {
             } else {
                 setInvalidErrorMessage(jsonResponse.message);
             }
-        }).catch(() => {
-            console.log("error")
+        }).catch((error) => {
+            console.log("error", error)
         })
         e.preventDefault();
     };
