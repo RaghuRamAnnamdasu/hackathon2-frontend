@@ -21,7 +21,7 @@ export function AllQuestionsWrapper() {
     const askQuestion = () => {
         var userDetails = localStorage.getItem("user");
         userDetails = JSON.parse(userDetails);
-        if(userDetails && userDetails.token) {
+        if(userDetails && userDetails.userName) {
             navigate("/questions/askquestion");
         } else {
             navigate("/users/login");
